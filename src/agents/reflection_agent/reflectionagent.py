@@ -1,25 +1,25 @@
-from src.agents.llm import llm
+from src.agents.llm import LLM
 class ReflectionAgent:
     """
+    Reflection Agent
     
     """
     def __init__(self,query):
         
         self.query = query
-    
-    def load_model(self):
-        """
-        """
         
-        
-        pass
     
-    
-    def predict(self, query):
+    def generate(self, query):
         """
         """
+        return LLM.generate(query)
     
     def get_reflection(self, query):
         """
         """
-        return groq.execute(query)
+        return LLM.generate(query)
+    
+    def run_agent(self, query):
+        """
+        """
+        return self.generate(query)

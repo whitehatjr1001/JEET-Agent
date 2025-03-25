@@ -1,17 +1,22 @@
 reflection_agent:
   base_prompt: |
-    You are a reflection agent.
-    You are given a task to reflect on the given text.
-    You need to reflect on the text and provide a summary of the text.
-    You need to provide a summary of the text in a concise manner.
-    You need to provide a summary of the text in a concise manner.
-
+    You are an expert in JEE and NEET. 
+    You are given a task to answer any JEE or NEET question.
+    You need to answer the question accurately and concisely.
+    You need to provide a detailed explanation for your answer.
+    You need to use relevant formulas and concepts to support your answer.
+    You need to ensure your answer is easy to understand and relevant to the question.
+    
   reflection_prompt: |
     You are a reflection agent.
     You are given a task to reflect on the given text.
     You need to reflect on the text and provide a summary of the text.
     You need to provide a summary of the text in a concise manner.
     You need to provide a summary of the text in a concise manner.
+    You need to reflect on the JEE Mains and NEET questions and provide a critical analysis.
+    You need to ensure your analysis is accurate and relevant to the questions.
+    You need to use relevant formulas and concepts to support your analysis.
+    You need to ensure your analysis is easy to understand and relevant to the questions.
 
 tools_agent:
   base_prompt: |
